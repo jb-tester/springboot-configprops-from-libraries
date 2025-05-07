@@ -1,0 +1,22 @@
+my:
+  lib:
+    nested:
+      pojo:
+        lib-model-one:
+          id:   0
+          name: lib-model-top
+        lib-model-ones:
+          - id: 1
+            name: lib-model-one
+          - id: 2
+            name: lib-model-two
+
+    parent:
+      class:
+        id: 3
+        name: lib-model-three
+
+    config:
+      bean:
+        id: 4
+        name: lib-model-four
